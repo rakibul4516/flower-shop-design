@@ -7,10 +7,9 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    display: flex;
     background-color: rgba(229, 84, 115, 0.10);
     ;
-    justify-content: space-around;
+    
 }
 .btn-primary{
     border-radius: 8px;
@@ -21,15 +20,46 @@ header{
     font-weight: 700;
     border: none;
 }
+        /* nav bar section */
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .logo{
+    color: #E55473;
+    font-size: 60px;
+    font-weight: 800; 
+    padding-left: 200px;
+
+ }
+ .logo > span{
+    color: #0ffc22;
+ }       
+.navbar > ul{
+    display: flex;
+    padding-right: 200px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.navbar > uL >li{
+    list-style: none;
+    margin: 10px 20px;
+}
 
         /* Banner section style */
-
+.banner{
+    justify-content: space-between;
+    display: flex;
+}
 .banner-content{
     margin: 100px 0 0  100px;
 }
 .banner-title{
     color: #272727;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 800;
     margin-bottom: 30px;
 }
@@ -40,12 +70,14 @@ header{
     margin-bottom: 30px;
 }
 .banner-image{
-    width: 600px;
+    width: 500px;
     
 }
+        /* Buy product section */
+        
         /* Featured text style */
 .featured-content{
-    margin: 100px  0 30px;
+    margin: 100px  350px 30px;
 }
 .featured-text{
     text-align: center;
@@ -91,6 +123,30 @@ header{
 .three{
     background: rgba(71, 125, 17, 0.15);
 }
+
+        /* Our service section */
+
+.our-services{
+    display: flex;
+    text-align: center;
+    margin: 7% 7% 0; 
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+}
+.service-content{
+    padding: 50px 100px;
+}
+.service-image{
+    width: 88px;
+    height: 88px;
+}
+ .service-desc{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+ }
         /* Hot deal section */
 
 .hot-deal-section{
@@ -135,18 +191,34 @@ header{
 .rectangle-images{
     width: 280px;
     height: 350px;
-}      
+}
+              /* contact form section */
 .email-field{
-    text-align: center;
-    margin: 7%;
-    background-image: url('/images/Rectangle 9.png');
+    background-image: url('/images/Rectangle9.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 150px 100px;
+    margin: 7%;
+
+}
+.email-field-container{
+    text-align: center;
+    padding: 100px 100px;
 
 }
 .input-section{
-    padding: 10px 100px;
+    padding: 10px 20px;
+}
+.form-headline{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.form-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 input{
     width: 500px;
@@ -162,24 +234,32 @@ input::placeholder{
 
         /* Footer section */
 footer{
-    text-align: center;
     background-color: black;
-    margin: 100px 0 0;
-    height: 300px;
+    height: 350px;
+    text-align: center;
 }
 .footer-section{
     padding: 100px;
+
 }
 .footer-headline{
-    color: #FFF;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 .footer-headline > span{
-    color: #E55473;
+    color: #FFFFFF;
 }
 .footer-description{
-    color:#FFF;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
 
 }
 .copyright-section{
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }

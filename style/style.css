@@ -30,7 +30,7 @@ header{
     color: #E55473;
     font-size: 60px;
     font-weight: 800; 
-    padding-left: 200px;
+    padding-left: 100px;
 
  }
  .logo > span{
@@ -236,9 +236,6 @@ header{
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 7%;
-
-}
-.email-field-container{
     text-align: center;
     padding: 100px 100px;
 

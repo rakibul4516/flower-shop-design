@@ -74,7 +74,45 @@ header{
     
 }
         /* Buy product section */
-        
+.shop-now{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 50px 0 0;
+}
+.buy-product{
+    margin: 5% 7%;
+}
+.product-list{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 50px;
+} 
+.product-item{
+    width: 250px;
+    height: 350px;
+    padding: 30px;
+    border: 2px solid black;
+}
+.product-image{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #787172;
+}
+.price{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.product-name{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}       
         /* Featured text style */
 .featured-content{
     margin: 100px  350px 30px;
